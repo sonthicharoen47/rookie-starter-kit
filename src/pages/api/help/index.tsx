@@ -1,10 +1,7 @@
 import { NextApiRequest, NextApiResponse } from "next";
 import { promises as fs } from "fs";
 import { Food } from "@constants/food";
-
-type THelper = {
-  message: string;
-};
+import { THelper } from "@interfaces/help.interface";
 
 export default async function handler(
   req: NextApiRequest,

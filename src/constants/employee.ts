@@ -1,102 +1,18 @@
-import { TEmployee } from "@stores/profile.store";
+export const Employee = [];
 
-export const Employee: Array<TEmployee> = [
-  {
-    id: "010001",
-    name: "james",
-    salary: 9000,
-    gender: "male",
-    nationality: "english",
-  },
-  {
-    id: "010002",
-    name: "spencer",
-    salary: 9000,
-    gender: "male",
-    nationality: "english",
-  },
-  {
-    id: "010003",
-    name: "dominic ",
-    salary: 9000,
-    gender: "male",
-    nationality: "american",
-  },
-  {
-    id: "010004",
-    name: "ryan",
-    salary: 9000,
-    gender: "male",
-    nationality: "australia",
-  },
-  {
-    id: "010005",
-    name: "harry",
-    salary: 9000,
-    gender: "male",
-    nationality: "american",
-  },
-  {
-    id: "010006",
-    name: "theo",
-    salary: 9000,
-    gender: "male",
-    nationality: "english",
-  },
-  {
-    id: "010007",
-    name: "alexa",
-    salary: 9000,
-    gender: "female",
-    nationality: "english",
-  },
-  {
-    id: "010008",
-    name: "elsie",
-    salary: 9000,
-    gender: "female",
-    nationality: "australia",
-  },
-  {
-    id: "010009",
-    name: "kimberley",
-    salary: 9000,
-    gender: "female",
-    nationality: "english",
-  },
-  {
-    id: "010010",
-    name: "gemma",
-    salary: 9000,
-    gender: "female",
-    nationality: "american",
-  },
-  {
-    id: "010011",
-    name: "maria ",
-    salary: 9000,
-    gender: "female",
-    nationality: "american",
-  },
-  {
-    id: "010012",
-    name: "luna",
-    salary: 9000,
-    gender: "female",
-    nationality: "english",
-  },
-  {
-    id: "010013",
-    name: "poppy",
-    salary: 9000,
-    gender: "female",
-    nationality: "australia",
-  },
-  {
-    id: "010014",
-    name: "sofia",
-    salary: 9000,
-    gender: "female",
-    nationality: "australia",
-  },
-];
+export const getEmployeeById = (_id: string) => {
+  return;
+};
+
+export const getAllThaiEmplyee = () => {
+  return;
+};
+
+export const getEmployeeDarkSalary = () => {
+  return;
+};
+
+//optional
+export const getEmplyeeByNation = (_nation: string) => {
+  return;
+};

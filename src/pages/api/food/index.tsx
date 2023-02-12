@@ -2,15 +2,10 @@ import path from "path";
 import { promises as fs } from "fs";
 import { TFood } from "@constants/food";
 import type { NextApiRequest, NextApiResponse } from "next";
-
-export type ReponseFormat = {
-  status: boolean;
-  message: string;
-};
-
-type ResponseFoodJSON = {
-  food: Array<TFood>;
-};
+import {
+  ReponseFormat,
+  ResponseFoodJSON,
+} from "@interfaces/customer.interface";
 
 export default async function handler(
   req: NextApiRequest,

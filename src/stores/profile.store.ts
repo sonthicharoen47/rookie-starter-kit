@@ -1,18 +1,11 @@
+import { IProfile } from "@interfaces/profile.interface";
 import configZustandDevTools from "@utils/zustandDevtools";
 import { create } from "zustand";
 import { devtools, persist } from "zustand/middleware";
 
-export type TEmployee = {
-  id: string;
-  name: string;
-  salary: number;
-  gender: "male" | "female";
-  nationality: string;
-};
-
 interface IUseProfileStore {
-  profile: TEmployee | undefined;
-  onSetProfileData: (_profile: TEmployee) => void;
+  profile: IProfile | undefined;
+  onSetProfileData: (_profile: IProfile) => void;
   onReset: () => void;
 }
 
